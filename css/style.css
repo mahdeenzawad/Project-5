@@ -1,0 +1,297 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Roboto Slab', serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto Slab', serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.header{
+    width: 100%;
+    padding:  0px;
+    background: url(../images/Banner.png) center top no-repeat;
+    background-size: cover;
+    
+}
+.header .navbar-brand img{
+    width: 40%
+}
+.header .nav-item p{
+    margin: 5px 0px 0px 0px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    font-style: italic;
+}
+.header .nav-item .btn-primary{
+    margin: 0px 0px 0px 15px;
+    background: #3d4b60;
+    border-radius: 5px;
+    border: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.header .nav-item .btn-primary:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.header .nav-item .btn-primary:focus{
+    background-color: #3d4b60;
+    color: #fff;
+    border: none;
+}
+.header .banner{
+    width: 100%;
+    padding: 195px 0px;
+}
+.header .banner h1{
+    font-size: 40px ;
+    color: #fff;
+    font-weight: 500;
+    margin: 0px 0px 25px 0px;
+}
+.header .banner P{
+    color: #fff;
+    margin: 0px 0px 25px 0px;
+}
+.header .banner .btn-primary{
+    color: #fff;
+    background-color: #67bf95;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.header .banner .btn-primary:hover{
+    border: 1px solid #67bf95;
+    background-color: transparent;
+    color: #fff;
+}
+.todo{
+    width: 100%;
+    padding: 80px 0px;
+}
+.todo .todo-image img{
+    width: 35%;
+}
+.todo h2{
+    margin: 35px 0px 20px 0px;
+    color: #3d4b60;
+}
+.todo p{
+    color: #3d4b60;
+}
+.modern{
+    width: 100%;
+    padding: 80px 0px;
+    background: url(../images/Intro-2.png) center top no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.modern h1{
+    text-align: center;
+    color: #fff;
+    margin: 0px 0px 20px 0px;
+}
+.modern p{
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+/* PLANS  */
+.plans{
+    width: 100%;
+    padding: 80px 0px;
+}
+.plans .title{
+    width: 100%;
+    text-align: center;
+}
+.plans .title h4{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #08c;
+    letter-spacing: 1px;
+    margin: 0px 0px 15px 0px;
+}
+.plans .title h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0px 0px 20px 0px;
+}
+.plans .title P{
+    margin: 0px 0px 40px 0px;
+}
+.plans .title img{
+    margin-bottom: 40px;
+}
+.plans .price-box{
+    width: 100%;
+    text-align: center;
+    border: 1px solid #999;
+}
+.plans .price-header{
+    width: 100%;
+    border-bottom: 1px solid #999;
+    padding: 15px;
+
+}
+.plans .price-header h4{
+    font-weight: 700;
+}
+.plans .main-price h1{
+    font-size: 65px;
+    font-weight: 700;
+}
+.plans .main-price{
+    width: 100%;
+    padding: 15px;
+    border-bottom: 1px solid #999;
+    
+}
+.plans .price-content{
+    padding: 30px 0px;
+    width: 100%;
+}
+.plans .price-content p{
+    font-size: 15px;
+    color: #999;
+    font-weight: 600;
+}
+.plans .price-content p span{
+    color: #008ed6;
+}
+.plans .price-content .btn-primary{
+    background: transparent;
+    border: 1px solid #999;
+    border-radius: 5px;
+    color: #3d4b60;
+    padding: 10px 30px;
+    font-weight: 700;
+}
+.plans .price-content .btn-primary:hover{
+    background-color: #008ed6;
+    color: #fff;
+    transition: .7s;
+    border: none;
+}
+.price-box:hover .price-header{
+    background: #fff
+
+}
+.price-box:hover .main-price{
+    background-color: #67bf95;;
+
+}
+.price-box:hover .main-price h1{
+    color: #fff;
+}
+.price-box:hover .main-price p{
+    color: #fff;
+
+}
+.price-box:hover .price-content .btn-primary{
+    background-color: #67bf95;
+    color: #fff;
+
+    border: none;
+}
+/* PLANS  */
+/* CONTACT  */
+.contact{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #2d3136;
+}
+.contact .title{
+    width: 100%;
+    text-align: center;
+}
+.contact .title img{
+    width: 15%;
+    margin: 0px 0px 50px 0px;
+}
+.contact .main-form{
+    width: 100%;
+}
+.contact .main-form h5{
+    color: #fff;
+}
+.contact .main-form h5 span{
+    color: #b8393b;
+}
+.contact .form-control{
+    width: 100%;
+    padding: 20px 15px;
+    margin: 0px 0px 35px;
+}
+.contact .btn-primary{
+    padding: 15px 25px;
+    background: #b8393b;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+.contact .btn-primary:hover{
+    border: 1px solid #b8393b;
+    color: #fff;
+    background: transparent;
+}
+/* CONTACT  */
+/* Footer  */
+.footer{
+    width: 100% ;
+    padding: 40px 0px 20px 0px;
+    background-color: #2a2d33;
+}
+.footer .inner-footer{
+    width: 100%;
+}
+.footer .footer-img img{
+    width: 25%;
+}
+.footer .main-footer{
+    width: 100%;
+    text-align: right;
+}
+.footer .main-footer li{
+    list-style: none;
+    display: inline-block;
+}
+.footer .main-footer li a{
+    display: block;
+    font-size: 30px;
+    margin: 0px 5px;
+    background-color: transparent;
+
+    color: #3d4b60;
+}
+.footer .footer-text{
+    width: 100%;
+    text-align: center;
+}
+.footer .footer-text p{
+    color: #3d4b60;
+    font-weight: 500;
+}
+/* Footer  */
